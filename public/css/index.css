@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Nanum+Gothic+Coding:wght@700&display=swap');
+:root{
+   --font-family:Poppins,Battambang;
+   --bg-color: #072a4d;
+   --text-color:#fff;
+}
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: var(--font-family);
+}
+
+.bg-gradient {
+   background-color: var(--bg-color);
+   padding: 10px 50px;
+   width: 100%;
+}
+.bg-gradient nav .text-logo{
+   font-size: 25px;
+   line-height: 1.5px;
+   color: var(--text-color);
+   font-weight: 700;
+   font-family: 'Nanum Gothic Coding', monospace;
+
+}
+.bg-gradient nav a{
+   color: var(--text-color);
+   margin: 5px 20px;
+   border-radius: 2px;
+}
+.bg-gradient nav a:hover{
+   color: #d9e2eb;
+}
+.bg-gradient nav .navbar-nav .actives{
+   background-color: #002D62;
+}
+.footer-text{
+   font-family: 'Manrope', monospace;
+}
